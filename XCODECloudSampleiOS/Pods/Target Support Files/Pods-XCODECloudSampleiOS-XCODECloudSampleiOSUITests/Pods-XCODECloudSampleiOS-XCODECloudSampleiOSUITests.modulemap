@@ -1,0 +1,6 @@
+framework module Pods_XCODECloudSampleiOS_XCODECloudSampleiOSUITests {
+  umbrella header "Pods-XCODECloudSampleiOS-XCODECloudSampleiOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Highcharts (11.1.0)
+
+DEPENDENCIES:
+  - Highcharts
+
+SPEC REPOS:
+  trunk:
+    - Highcharts
+
+SPEC CHECKSUMS:
+  Highcharts: ebe8a98b9af3c1f653068fbfb49c71e389860547
+
+PODFILE CHECKSUM: 8b43ea63c243f9ab09273fbc7b92a3b46a5ac444
+
+COCOAPODS: 1.12.1
