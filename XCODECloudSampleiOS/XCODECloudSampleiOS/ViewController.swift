@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Highcharts
+//import Highcharts
 
 class ViewController: UIViewController {
 

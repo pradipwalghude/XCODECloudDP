@@ -179,7 +179,6 @@
 				8CC3B1F52ADFE3A20069F67E /* Sources */,
 				8CC3B1F62ADFE3A20069F67E /* Frameworks */,
 				8CC3B1F72ADFE3A20069F67E /* Resources */,
-				546CB1F17DCBDCB95D6DB135 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,7 +216,6 @@
 				8CC3B2152ADFE3A40069F67E /* Sources */,
 				8CC3B2162ADFE3A40069F67E /* Frameworks */,
 				8CC3B2172ADFE3A40069F67E /* Resources */,
-				094BF21A262647048D75420E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -300,23 +298,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		094BF21A262647048D75420E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-XCODECloudSampleiOS-XCODECloudSampleiOSUITests/Pods-XCODECloudSampleiOS-XCODECloudSampleiOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-XCODECloudSampleiOS-XCODECloudSampleiOSUITests/Pods-XCODECloudSampleiOS-XCODECloudSampleiOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XCODECloudSampleiOS-XCODECloudSampleiOSUITests/Pods-XCODECloudSampleiOS-XCODECloudSampleiOSUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		0E4227A0F53B513342BB1CD4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,23 +318,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		546CB1F17DCBDCB95D6DB135 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-XCODECloudSampleiOS/Pods-XCODECloudSampleiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-XCODECloudSampleiOS/Pods-XCODECloudSampleiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XCODECloudSampleiOS/Pods-XCODECloudSampleiOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		772E3537897581880463C503 /* [CP] Check Pods Manifest.lock */ = {
